@@ -1,0 +1,126 @@
+body{
+    background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+
+    background-position: center;
+
+}
+.jumbotron{
+    background: rgba(72, 101, 197, 0.671);
+
+}
+.h2{
+    text-align: center;
+    color: #ddd;
+}
+
+
+/* index.html style */
+.a1{
+    text-align: center;
+    color:black;
+    font-size:500%;
+ 
+}
+.juu
+ {
+  overflow: hidden;
+  background-color: rgb(43, 43, 226);
+  
+}
+
+.juu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 10px;
+  
+  
+}
+
+.juu a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+.juu a.active {
+  background-color: #4CAF50;
+  color: white;
+  
+  
+}
+
+
+/*  */
+.H
+{
+    text-align: center;
+    color: darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    height: 10px;
+    
+}
+
+/* doctor home.html style */
+.top
+ {
+  overflow: hidden;
+  background-color: #333;
+}
+.imgf
+{
+  width: 100%;
+  height: 500px;
+
+}
+.imgt
+{
+  width: 100%;
+  height: 500px;
+}
+.imgk
+{
+  width: 100%;
+  height: 500px;
+}
+
+/*  */
+
+/* nav style */
+.top
+ {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.top a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*  */
+.footer{
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #cccccc;
+    text-align: center;
+}
