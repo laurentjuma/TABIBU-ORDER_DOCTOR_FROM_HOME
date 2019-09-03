@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(aquamarine, gray);
+}
+h1{
+    text-align: center;
+}
+.prof-name{
+    text-align: center;
+}
+.footer{
+    position:inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    color:black;
+    text-align: center;
+}
+.fb{
+    width: 40px;
+    height: 40px;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+}
+.email{
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+}
+.skyeep{
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+}
+.linkedin{
+    width: 40px;
+    height: 40px;
+}
+.container{
+    background-image: linear-gradient(darkblue, white);
+}
