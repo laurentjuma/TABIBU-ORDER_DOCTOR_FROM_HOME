@@ -1,6 +1,12 @@
 
+@media (max-width: 1125px) {
+  body{
+    
+  }
+
 .lexy{ 
   background-image:linear-gradient(aquamarine, gray);
+
 }
 .body-2{
     background-image: url("http://www.valleyhealthcolumbus.com/wp-content/uploads/2015/08/Blue-radial-gradient-background1.png");
@@ -9,19 +15,17 @@
   
   }
   .jumbotron-2{
-    position: relative;
-    overflow: hidden;
-    background: rgba(130, 161, 168, 0.432);
+    background: rgba(17, 140, 197, 0.192);
   }
   .ul-2{
-    margin-left: 110vh;
+    margin-left: 105vh;
   }
-  .topnav {
+  .topnav-2 {
       overflow: hidden;
       background-color: rgb(20, 152, 192);
-      height: 53px;
+      height: 50px;
     }
-    .topnav a {
+    .topnav-2 a {
       float: left;
       color: #f2f2f2;
       text-align: center;
@@ -30,49 +34,45 @@
       font-size: 16px;
     }
     
-    .topnav a:hover {
+    .topnav-2 a:hover {
       background-color: rgba(50, 213, 238, 0.459);
       color: black;
     }
     
-    .topnav a.active {
+    .topnav-2 a.active {
       background-color: rgba(6, 59, 95, 0.432);
       color: white;
     }
-    .search-box{
-      float: center;
-      padding: 6px;
-      border: none;
-      margin-top: 8px;
-      margin-right: 16px;
-      font-size: 17px;
-    }
+    
     .feeling{
         text-align: center;
     }
     .search-box{
-        text-align: center;
+     text-align: center;
     }
+    .search-button{
+   margin-top: 9px;
+    }
+
   
   .explain{
     text-align: center;
   }
-  .form{
-    color: #f2f2f2;
-  }
+  
   .button-2{
     margin-bottom: 5px;
   }
-  ::placeholder{
-      color: rgba(59, 68, 85, 0.527);
-  }
+ .form-2{
+   background: rgba(48, 75, 100, 0.233);
+   border: 0;
+ }
   #h1-2{
     color: rgb(53, 53, 53);
     font-size: 25px;
   }
   
 
-body{
+/* body{
 
     background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
@@ -81,17 +81,17 @@ body{
 
 }
 .jumbotron{
-    background: rgba(72, 101, 197, 0.671);
+    background: rgba(72, 101, 197, 0.774);
 
 }
 .h2{
     text-align: center;
     color: #ddd;
 }
-
+ */
 
 /* index.html style */
-.a1{
+/* .a1{
     text-align: center;
     color:black;
     font-size:500%;
@@ -128,14 +128,14 @@ body{
 }
 
 /*  */
-.H
+/* .H
 {
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     height: 10px;
     
-}
+} */ */
 
 /* doctor home.html style */
 /* .top
@@ -164,7 +164,11 @@ body{
 
 /* nav style */
 
+/* .top
+
+
 .top
+
  {
   overflow: hidden;
   background-color: #333;
@@ -187,15 +191,19 @@ body{
 .top a.active {
   background-color: #4CAF50;
   color: white;
-}
+} */
 
 /*  */
+
+/* .footer{
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
 }
 .footer
 {
+
     position: inherit;
     left: 0;
     bottom: 0;
@@ -246,12 +254,16 @@ h1{
 .linkedin{
     width: 40px;
     height: 40px;
+
+} */
+/* .container{
+
 }
 .cont {
     background-image: linear-gradient(darkblue, white);
-}
+} */
 
-.top{
+/* .top{
     overflow: hidden;
     background-color: #333;
 }
@@ -271,7 +283,7 @@ h1{
     background-color: #4CAF50;
     color: white;
 }
-.topnav {
+.topnav-2 {
     overflow: hidden;
     background-color: rgb(56, 53, 238);
     height: 53px;
@@ -298,6 +310,8 @@ h1{
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+} */
+
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
