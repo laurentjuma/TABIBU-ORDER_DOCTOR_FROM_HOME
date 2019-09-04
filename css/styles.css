@@ -1,4 +1,7 @@
 
+.lexy{ 
+  background-image:linear-gradient(aquamarine, gray);
+}
 .body-2{
     background-image: url("http://www.valleyhealthcolumbus.com/wp-content/uploads/2015/08/Blue-radial-gradient-background1.png");
     height: 100%;
@@ -129,14 +132,14 @@ body{
 .H
 {
     text-align: center;
-    color: darkcyan;
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     height: 10px;
     
 }
 
 /* doctor home.html style */
-.top
+/* .top
  {
   overflow: hidden;
   background-color: #333;
@@ -156,11 +159,12 @@ body{
 {
   width: 100%;
   height: 500px;
-}
+} */
 
 /*  */
 
 /* nav style */
+
 .top
  {
   overflow: hidden;
@@ -171,7 +175,7 @@ body{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -187,7 +191,12 @@ body{
 }
 
 /*  */
-.footer{
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.footer
+{
     position: inherit;
     left: 0;
     bottom: 0;
@@ -195,7 +204,6 @@ body{
     background-color: black;
     color: #cccccc;
     text-align: center;
-
     background-image: linear-gradient(aquamarine, gray);
 }
 h1{
@@ -240,7 +248,7 @@ h1{
     width: 40px;
     height: 40px;
 }
-.container{
+.cont {
     background-image: linear-gradient(darkblue, white);
 }
 
@@ -292,4 +300,37 @@ h1{
     margin-right: 16px;
     font-size: 17px;
 }
+
+
+/* sam */
+.klp{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+.ghj{
+  width:40px;
+  height:40px;
+}
+.abc{
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+}
+.npd{
+  width: 40px;
+  height: 40px;
+
+}
+.bgk{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+.tre{
+  width: 60px;
+  height: 60px;
+
+}
+/*sam  */
 
