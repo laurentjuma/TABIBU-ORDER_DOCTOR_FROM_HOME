@@ -109,7 +109,10 @@ body{
   
   
 }
-
+.j{
+    text-align: center;
+    position: left 50%;
+}
 
 /*  */
 .H
