@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <link rel="stylesheet" href="js/scripts.js">
@@ -6,20 +7,36 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
-    <title>Tabibu home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabibu Home</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tabibu home</title>
 </head>
 <nav>
-    <div class="topnav">
+    <div class="topnav-2">
         <a class="active" href="index.html"><i class="material-icons">home</i>TABIBU</a>
         <ul>
             <div class="ul-2">
-                <a href="#Profile"><i class="material-icons" style="nav-right: current">account_circle</i>Profile</a>
-                <a href="#contact"><i class="material-icons">call</i>Contact</a>
-                <input type="text" placeholder="   Search doctor.." name="search"
-                    style="width: 35vh; height: 36px; color: whitesmoke; background: rgba(48, 75, 100, 0.233); border: 0; margin-top: 10px;">
-                <button type="submit" class="btn btn-success" style="margin-bottom: 0px;"> <i
-                        class="material-icons">search</i> </button>
+                <div class="row">
+                    <a href="#Profile"><i class="material-icons"
+                            style="nav-right: current">account_circle</i>Profile</a>
+                    <a href="#contact"><i class="material-icons">call</i>Contact</a>
+                    <input class="form-control" type="text" placeholder="   Search doctor.." name="search"
+                        style="width: 35vh; height: 36px; color: whitesmoke; background: rgba(48, 75, 100, 0.233); border: 0; margin-top: 10px;">
+                    <div class="search-button">
+                        <button type="submit" class="btn btn-success"> <i class="material-icons">search</i> </button>
+                    </div>
+                </div>
             </div>
         </ul>
     </div>
@@ -28,7 +45,7 @@
 <body class="body-2">
     <div class="container">
         <div class="jumbotron-2">
-            <div class="jumbotron" style="background:  rgba(41, 153, 179, 0.432);">
+            <div class="jumbotron fluid" style="background: rgba(130, 161, 168, 0.432);">
                 <div class="feeling">
                     <h1>How are you feeling today?</h1> <br>
                     <ul style="margin-left: 45vh; text-align:initial; font-size: 20px">
@@ -43,25 +60,26 @@
             </div>
         </div>
         <div class="jumbotron-2">
-            <div class="jumbotron" style="background: rgba(41, 153, 179, 0.432);">
+            <div class="jumbotron" style="background: rgba(130, 161, 168, 0.432);">
                 <div class="explain">
                     <h1>Explain in details about how you are feeling</h1> <br>
                     <div class="form">
                         <form action="class">
-                            <textarea style="color: whitesmoke; background: rgba(0, 0, 255, 0.068);" name="comment" id="form" cols="60" rows="10" placeholder="Add how you are feeling.." form="userform"></textarea>
+                            <textarea class="form-control form-2" name="comment" id="form" cols="60" rows="10"
+                                placeholder="Add how you are feeling.." form="userform"></textarea>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
         <div class="jumbotron-2">
-            <div class="jumbotron" style="background:  rgba(41, 153, 179, 0.432);">
-                <h1 style="text-align: center">Enter your location to find doctors near you;</h1> 
+            <div class="jumbotron" style="background: rgba(130, 161, 168, 0.432);">
+                <h1 style="text-align: center">Enter your location to find doctors near you;</h1>
                 <div class="search-box">
-                    <input style="background:  rgba(0, 102, 255, 0.068); border: 0; height: 40px; text-align: center;" type="text" placeholder="Enter location.." name="search">
-                    <button type="submit" class="btn btn-success" style="height: 45px;"> <i >search</i> </button>                    
+                    <input class="form-control form-2" type="text" placeholder="Enter location.." name="search"><br>
+                    <button type="submit" class="btn btn-success"> Find Doctor </button>
                 </div>
             </div>
         </div>
-
+    </div>
 </body>
