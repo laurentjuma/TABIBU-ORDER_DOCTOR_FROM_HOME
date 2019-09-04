@@ -26,7 +26,6 @@ h1{
     border-radius: 60%;
 }
 .twitter{
-    
     width: 40px;
     height: 40px;
 }
@@ -44,7 +43,7 @@ h1{
     width: 40px;
     height: 40px;
 }
-.container{
+.cont {
     background-image: linear-gradient(darkblue, white);
 }
 
