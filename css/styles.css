@@ -1,4 +1,7 @@
 
+.lexy{ 
+  backround-image:linear-gradient(aquamarine, gray);
+}
 .body-2{
     background-image: url("https://media.idownloadblog.com/wp-content/uploads/2019/04/Clear-Sky-for-iPhoneXSMAX-iPhoneXR-iphone-wallpaper-gradient-AR72014.png");
     height: 100%;
@@ -178,7 +181,6 @@ body{
     background-color: black;
     color: #cccccc;
     text-align: center;
-
     background-image: linear-gradient(aquamarine, gray);
 }
 h1{
@@ -206,6 +208,7 @@ h1{
     border-radius: 60%;
 }
 .twitter{
+    
     width: 40px;
     height: 40px;
 }
