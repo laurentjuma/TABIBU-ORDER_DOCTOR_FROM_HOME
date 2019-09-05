@@ -135,6 +135,8 @@
     font-family: 'Times New Roman', Times, serif;
     height: 10px;
     
+}
+
 } */ */
 
 /* doctor home.html style */
@@ -195,14 +197,26 @@
 
 /*  */
 
+
 /* .footer{
 
 .carousel-inner img {
   width: 100%;
   height: 100%;
 }
-.footer
+input[type="text"]
+input[type="number"]
+input[type="password"] {
+  width: 100%;
+  padding: 20px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing:border-box;
+}
+.mgu
 {
+  
+
 
     position: inherit;
     left: 0;
@@ -211,6 +225,9 @@
     background-color: black;
     color: #cccccc;
     text-align: center;
+    margin-top:13.5%;
+    height: 50%;
+
     background-image: linear-gradient(aquamarine, gray);
 }
 h1{
@@ -239,7 +256,7 @@ h1{
 }
 .twitter{
     width: 40px;
-    height: 40px;
+    height: 40px; 
 }
 .email{
     width: 40px;
@@ -403,9 +420,9 @@ form {border: 3px solid #f1f1f1;}
 
 /* sam */
 .klp{
-  width: 40px;
-  height: 40px;
-  border-radius: 40%;
+  width: 0px;
+  height: 0px;
+  
 }
 .ghj{
   width:40px;
@@ -414,7 +431,7 @@ form {border: 3px solid #f1f1f1;}
 .abc{
   width: 40px;
   height: 40px;
-  border-radius: 60%;
+  border-radius: 0%;
 }
 .npd{
   width: 40px;
@@ -422,13 +439,16 @@ form {border: 3px solid #f1f1f1;}
 
 }
 .bgk{
-  width: 40px;
-  height: 40px;
-  border-radius: 40%;
+  width: 20px;
+  height: 30px;
+  border-radius: -50px
+
 }
 .tre{
   width: 60px;
   height: 60px;
+  margin-left: 0%;
+  
 
 }
 /*sam  */
