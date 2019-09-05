@@ -5,8 +5,7 @@
     background-image: url("http://www.valleyhealthcolumbus.com/wp-content/uploads/2015/08/Blue-radial-gradient-background1.png");
     height: 100%;
     font-family: 'Manjari', sans-serif;
-  
-  }
+ }
   .jumbotron-2{
     background: rgba(17, 140, 197, 0.192);
   }
@@ -63,9 +62,6 @@
     color: rgb(53, 53, 53);
     font-size: 25px;
   }
-  
-
-
 body{
     background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
@@ -110,6 +106,7 @@ body{
   color: #ddd;
 }
 
+
 * index.html style */
 .a1{
     text-align: center;
@@ -140,23 +137,12 @@ body{
   color: white;
 }
 
-/*  */
 .H {
   text-align: center;
   color: darkcyan;
   font-family: "Times New Roman", Times, serif;
   height: 10px;
 }
-
-/* doctor home.html style */
-.H{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-    height: 10px;
-    
-} 
-/* doctor home.html style */
 .top
  {
   overflow: hidden;
@@ -173,18 +159,14 @@ body{
 .imgk {
   width: 100%;
   height: 500px;
-} */
+}
 
 /*  */
-
-/* nav style */
 .top
-
  {
   overflow: hidden;
   background-color: #333;
 }
-
 .top a {
   float: left;
   color: #f2f2f2;
@@ -202,8 +184,7 @@ body{
 .top a.active {
   background-color: #4caf50;
   color: white;
-} */
-
+} 
 /*  */
 
 .footer {
@@ -286,14 +267,7 @@ h1 {
     width: 40px;
     height: 40px;
 
-} */
-.container{
-
-}
-.cont {
-    background-image: linear-gradient(darkblue, white);
-} */
-
+} 
 .top{
     overflow: hidden;
     background-color: #333;
@@ -356,10 +330,7 @@ form {
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-} */
-
-}
-
+} 
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
 /* Bordered form */
@@ -444,9 +415,9 @@ span.psw {
 }
 /* sam */
 .klp{
-  width: 40px;
-  height: 40px;
-  border-radius: 40%;
+  width: 0px;
+  height: 0px;
+  
 }
 .ghj{
   width:40px;
@@ -455,7 +426,7 @@ span.psw {
 .abc{
   width: 40px;
   height: 40px;
-  border-radius: 60%;
+  border-radius: 0%;
 }
 .npd{
   width: 40px;
@@ -463,13 +434,14 @@ span.psw {
 
 }
 .bgk{
-  width: 40px;
-  height: 40px;
-  border-radius: 40%;
+  width: 20px;
+  height: 30px;
+  border-radius: -50px
+
 }
 .tre{
   width: 60px;
   height: 60px;
-
+  margin-left: 0%;
 }
-/*sam  */
+
