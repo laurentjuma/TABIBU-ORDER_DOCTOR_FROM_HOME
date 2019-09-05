@@ -30,7 +30,26 @@ Patient.prototype.details = function () {
 
 //UI Logic
 $(Document).ready(function () {
+  //Main Sign Up
+  try {
+    $("#as-doctor").click(function () {
+      location.href = "doctor_signup.html";
+    });
+  } catch (Exception) {
+    console.log("NO");
+  }
 
+  try {
+    $("#as-patient").click(function () {
+      location.href = "patient_signup.html";
+    });
+  } catch (Exception) {
+    console.log("NO");
+  }
+
+
+
+  //Patient SignUp
   try {
     $("#patient-signup").click(function () {
       event.preventDefault();
@@ -63,6 +82,7 @@ $(Document).ready(function () {
     console.log("no");
   }
 
+  //Doctor SignUp
   try {
     $("#doctor-signup").click(function () {
       event.preventDefault();
