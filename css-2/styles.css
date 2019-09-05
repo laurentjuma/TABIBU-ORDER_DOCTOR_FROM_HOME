@@ -1,0 +1,76 @@
+
+
+.body-2{
+    background-image: url("http://www.valleyhealthcolumbus.com/wp-content/uploads/2015/08/Blue-radial-gradient-background1.png");
+    height: 100%;
+    font-family: 'Manjari', sans-serif;
+  
+  }
+  .jumbotron-2{
+    background: rgba(17, 140, 197, 0.192);
+  }
+  .ul-2{
+    margin-left: 115vh;
+  }
+  .topnav-2 {
+      overflow: hidden;
+      background-color: rgb(20, 152, 192);
+      height: 50px;
+    }
+    .topnav-2 a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    .topnav-2 a:hover {
+      background-color: rgba(50, 213, 238, 0.459);
+      color: black;
+    }
+    
+    .topnav-2 a.active {
+      background-color: rgba(72, 112, 139, 0.376);
+      color: white;
+      width: 10%;
+    }
+    
+    .feeling{
+        text-align: center;
+    }
+    .placeholder-2{
+      width: 35vh;
+      height: 36px;
+      color: whitesmoke;
+      background: rgba(114, 128, 141, 0.233);
+      border: 0;
+      margin-top: 10px;
+    }
+   
+    .search-box{
+     text-align: center;
+    }
+    .search-button{
+   margin-top: 9px;
+    }
+
+  
+  .explain{
+    text-align: center;
+  }
+  
+  .button-2{
+    margin-bottom: 5px;
+  }
+ .form-2{
+   background: rgba(255, 255, 255, 0.178);
+   border: 0;
+ }
+  #h1-2{
+    color: rgb(53, 53, 53);
+    font-size: 25px;
+  }
+  
+
