@@ -31,36 +31,36 @@ Patient.prototype.details= function() {
 //UI Logic
 $(Document).ready(function () {
 
-    $("#patient-signup-form").submit(function () {
-        event.preventDefault();
-        newPatient = new Patient($("#pFirstName").val(), $("#pLastName").val(), $("#pEmail").val(), $("#pAge").val(), $(".pGender").val(), $("#pPassword").val());
-        sessionStorage.setItem("pDetails", newPatient.details());
-        location.href = "patient_profile.html";
-    });
+    // $("#patient-signup-form").submit(function () {
+    //     event.preventDefault();
+    //     newPatient = new Patient($("#pFirstName").val(), $("#pLastName").val(), $("#pEmail").val(), $("#pAge").val(), $(".pGender").val(), $("#pPassword").val());
+    //     sessionStorage.setItem("pDetails", newPatient.details());
+    //     location.href = "patient_profile.html";
+    // });
 
-    patientDetails=sessionStorage.getItem("pDetails");
-    patientDetailsA=patientDetails.split(" ");
-    $(window).on("load",function(e){
-        $("#patient-profile-card-body").remove();
-        $(".patient-profile-card-edit").append("<div class='card-body' id='patient-profile-card-body'>"+
-        "<span><b>First Name:"+ patientDetailsA[0] +"</b></span><br>"+
-        "<br>"+
-        "<span><b>Second Name:"+ patientDetailsA[1] +"</b></span><br>"+
-        "<br>"+
-        "<span><b>Email Address:"+ patientDetailsA[2] +"</b></span><br>"+
-        "<br>"+
-        "<span><b>Phone Number:"+ +"</b></span><br>"+
-        "<br>"+
-        "<span><b>Age:"+ patientDetailsA[3] +"</b></span><br>"+
-        "<br>"+
+    // patientDetails=sessionStorage.getItem("pDetails");
+    // patientDetailsA=patientDetails.split(" ");
+    // $(window).on("load",function(e){
+    //     $("#patient-profile-card-body").remove();
+    //     $(".patient-profile-card-edit").append("<div class='card-body' id='patient-profile-card-body'>"+
+    //     "<span><b>First Name:"+ patientDetailsA[0] +"</b></span><br>"+
+    //     "<br>"+
+    //     "<span><b>Second Name:"+ patientDetailsA[1] +"</b></span><br>"+
+    //     "<br>"+
+    //     "<span><b>Email Address:"+ patientDetailsA[2] +"</b></span><br>"+
+    //     "<br>"+
+    //     "<span><b>Phone Number:"+ +"</b></span><br>"+
+    //     "<br>"+
+    //     "<span><b>Age:"+ patientDetailsA[3] +"</b></span><br>"+
+    //     "<br>"+
         
-      "</div>"+
-    "</div>");
-      });
+    //   "</div>"+
+    // "</div>");
+    //   });
 
-      $("#doctor-signup-form").submit(function () {
-        event.preventDefault();
-        newDoctor = new Doctor($("#dFirstName").val()), $("#dLastName").val(), $("#dEmail").val(), $("#kmpdb").val(), $("#dAge").val(), $(".dGender").val(), $("#dPhone").val(), $("#dPassword").val();
+      $("#doctor-signup").click(function () {
+        // event.preventDefault();
+        newDoctor = new Doctor($("#dFirstName").val(), $("#dLastName").val(), $("#dEmail").val(), $("#kmpdb").val(), $("#dAge").val(), $(".dGender").val(), $("#dPhone").val(), $("#dPassword").val());
         sessionStorage.setItem("dDetails", newDoctor.details());
         location.href = "doctor_profile.html";
     });
