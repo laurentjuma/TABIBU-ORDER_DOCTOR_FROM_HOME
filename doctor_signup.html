@@ -5,53 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Doctor Signup</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-sam-.css">
 </head>
 
 <body>
-    <form action="doc-sing-up">
+    <form id="doctor-signup-form">
         <div class="container kQ">
             <div class="jumbotron vertical/center" style="text-align: center ">
-              <div class="form-group">
-                <div id="first-name-doc">
-                   <b> FIRST NAME </b> <br> <input class="form-control" type="text" name="first name">
-                </div> <br>
-                <div id="last-name-doc">
-                   <b> LAST NAME</b><br> <input class="form-control" type="text" name="last name">
-                </div> <br>
-                <div id="email-doc">
-                   <b> EMAIL</b> <br> <input class="form-control" type="text" name="email">
-                </div> <br>
-                <div id="kmpdb-doc">
-                   <b> K.M.P.D.B </b><br> <input class="form-control" type="number" name="kmpdb">
-                </div> <br>
-                <div id="age-doc">
-                   <b> AGE </b> <br> <input class="form-control" type="number" name="age">
-                </div> <br>
-                <div id="male-doc">
-                   <b> MALE </b> <br> <input  type="radio" name="gender">
-                </div> <br>
-                <div id="female-doc">
-                    <b> FEMALE </b><br> <input type="radio" name="gender">
-                </div> <br>
-                <div id="phone-doc">
-                   <b> PHONE NUMBER </b><br> <input class="form-control" type="number" name="phone no">
-                </div> <br>
-                <div id="pass-doc">
-                   <b> PASSWORD </b><br> <input class="form-control" type="password" name="password">
-                </div> <br>
-                <div id="confirm-pass-doc">
-                   <b> CONFIRM PASSWORD: </b> <br> <input class="form-control" type="password" name="confirm-pass">
-                </div> <br>
-                <div>
-                    <button action="submit" class="btn btn-danger"> <b> SUBMIT </b></button>
+                <img src="images/doc avert2.jpg" alt="Avatar" class="avatar" style=" width: 25%">
+                <div class="form-group">
+                    <br> FIRST NAME <br> <input class="form-control" type="text" name="first name" id="dFirstName" required><br>
+                    LAST NAME <br> <input class="form-control" type="text" name="last name" id="dLastName" required><br>
+                    EMAIL <br> <input class="form-control" type="email" name="email" id="dEmail" required><br>
+                    K.M.P.D.B <br> <input class="form-control" type="text" name="kmpdb" id="kmpdb" required><br>
+                    AGE <br> <input class="form-control" type="text" name="age" id="dAge" required><br>
+                    GENDER <br> <br>
+                    Male <br> <input  type="radio" name="gender" value="male" class="dGender"> <br>
+                    Female <br> <input  type="radio" name="gender" value="female" class="dGender"> <br>
+                    PHONE NUMBER<br> <input class="form-control" type="text" name="phone no" id="dPhone" required><br>
+                    PASSWORD <br> <input class="form-control" type="text" name="password" id="dPassword"><br>
+                    CONFIRM PASSWORD: <br> <input class="form-control" type="text" name="confirm-pass"><br>
                 </div>
             </div>
-            </div>
+        </div>
         </div>
     </form>
+    <div class="io">
+        <button type="button" id="doctor-signup">Sign Up</button>
+    </div>
+    <div class="footer">
+        <h5>TABIBU © 2019 </h5>
+
+    </div>
 </body>
 
 </html>
