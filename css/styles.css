@@ -43,6 +43,15 @@
     .feeling{
         text-align: center;
     }
+    .placeholder-2{
+      width: 35vh;
+      height: 36px;
+      color: whitesmoke;
+      background: rgba(114, 128, 141, 0.233);
+      border: 0;
+      margin-top: 10px;
+    }
+   
     .search-box{
      text-align: center;
     }
@@ -59,7 +68,7 @@
     margin-bottom: 5px;
   }
  .form-2{
-   background: rgba(48, 75, 100, 0.233);
+   background: rgba(255, 255, 255, 0.178);
    border: 0;
  }
   #h1-2{
