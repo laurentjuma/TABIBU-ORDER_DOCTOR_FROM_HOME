@@ -10,6 +10,10 @@ function Doctor(firstName, lastName, email, regNo, age, gender, phoneNumber, pas
     this.password = password;
 }
 
+Doctor.prototype.details= function() {
+    return this.firstName+" "+this.lastName+" "+this.email+" "+this.regNo+" "+this.age+" "+this.gender+" "+this.phoneNumber+" "+this.password;
+}
+
 function Patient(firstName, lastName, email, id, age, gender, password) {
     this.firstName = firstName;
     this.lastName = lastName;
@@ -29,7 +33,7 @@ $(Document).ready(function () {
 
     $("#patient-signup-form").submit(function () {
         event.preventDefault();
-        newPatient = new Patient($("#pFirstName").val(), $("#pLastName").val(), $("#pEmail").val(), $("#pAge").val(), $("#pDOB").val(), $(".pGender").val(), $("#pPassword").val());
+        newPatient = new Patient($("#pFirstName").val(), $("#pLastName").val(), $("#pEmail").val(), $("#pAge").val(), $(".pGender").val(), $("#pPassword").val());
         sessionStorage.setItem("pDetails", newPatient.details());
         location.href = "patient_profile.html";
     });
@@ -53,5 +57,34 @@ $(Document).ready(function () {
       "</div>"+
     "</div>");
       });
+
+      $("#doctor-signup-form").submit(function () {
+        event.preventDefault();
+        newDoctor = new Doctor($("#dFirstName").val()), $("#dLastName").val(), $("#dEmail").val(), $("#kmpdb").val(), $("#dAge").val(), $(".dGender").val(), $("#dPhone").val(), $("#dPassword").val();
+        sessionStorage.setItem("dDetails", newDoctor.details());
+        location.href = "doctor_profile.html";
+    });
+
+    doctorDetails=sessionStorage.getItem("dDetails");
+    doctorDetailsA=doctorDetails.split(" ");
+    $(window).on("load",function(e){
+        $("#doctor-profile-card-body").remove();
+        $(".doctor-profile-card-edit").append("<div class='card-body' id='doctor-profile-card-body'>"+
+        "<span><b>First Name:"+ doctorDetailsA[0] +"</b></span><br>"+
+        "<br>"+
+        "<span><b>Last Name:"+ doctorDetailsA[1] +"</b></span><br>"+
+        "<br>"+
+        "<span><b>Email Address:"+ doctorDetailsA[2] +"</b></span><br>"+
+        "<br>"+
+        "<span><b>Phone Number:"+ doctorDetailsA[6] +"</b></span><br>"+
+        "<br>"+
+        "<span><b>Age:"+ doctorDetailsA[4] +"</b></span><br>"+
+        "<br>"+
+        "<span><b>K.M.P.D.B:"+ doctorDetailsA[3] +"</b></span><br>"+
+        "<br><br>"+
+      "</div>"+
+    "</div>");
+      });
+
 
 });
