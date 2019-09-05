@@ -72,7 +72,7 @@
   }
   
 
-/* body{
+ body{
 
     background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
@@ -88,10 +88,10 @@
     text-align: center;
     color: #ddd;
 }
- */
+ 
 
 /* index.html style */
-/* .a1{
+ .a1{
     text-align: center;
     color:black;
     font-size:500%;
@@ -127,18 +127,18 @@
   
 }
 
-/*  */
-/* .H
+
+ .H
 {
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     height: 10px;
     
-} */ */
+}
 
 /* doctor home.html style */
-/* .top
+ .top
  {
   overflow: hidden;
   background-color: #333;
@@ -158,21 +158,12 @@
 {
   width: 100%;
   height: 500px;
-} */
+}
 
 /*  */
 
 /* nav style */
 
-/* .top
-
-
-.top
-
- {
-  overflow: hidden;
-  background-color: #333;
-}
 
 .top a {
   float: left;
@@ -191,11 +182,11 @@
 .top a.active {
   background-color: #4CAF50;
   color: white;
-} */
+}
 
-/*  */
 
-/* .footer{
+
+
 
 .carousel-inner img {
   width: 100%;
