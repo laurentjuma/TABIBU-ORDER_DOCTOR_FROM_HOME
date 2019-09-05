@@ -7,15 +7,26 @@
     <title>Patient's Profile</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body>
+<body class="lexy">
+    <div class="topnav">
+        <a class="active" href="patient_home.html"><i class="material-icons">home</i><strong>Tabibu</strong></a>
+        <ul style="margin-left: 113vh">
+                <a href="patient_profile.html"><i class="material-icons">account_circle</i>Profile</a>
+                <a href="#contact"><i class="material-icons">call</i>Contact</a>
+                <input type="text" placeholder="Search doctor.." name="search" style="margin-top: 10px;">
+                <button type="submit" class="btn btn-success" style="margin-bottom: 4px;"> <i class="material-icons">search
+                    </i> </button>
+                     </ul>
+    </div>
     <h1><b>Patient's Profile</b></h1><br>
-    <div class="container">
+    <div class="container cont">
             <div class="row">
                 <div class="col-md-4 mx-auto" >
-                        <div class="card" style="width:400px">
-                                <img class="card-img-top" src="images/patient.png" alt="Card image">
-                                <div class="card-body">
+                        <div class="card patient-profile-card-edit" style="width:400px">
+                                <img class="card-img-top" src="images/patients.png" alt="Card image">
+                                <div class="card-body" id="patient-profile-card-body">
                                   <span><b>First Name:</b></span><br>
                                   <br>
                                   <span><b>Second Name:</b></span><br>
