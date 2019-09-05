@@ -1,8 +1,13 @@
 
+<<<<<<< HEAD
 @media (max-width: 1125px) {
   body{
     
   }
+=======
+.lexy{ 
+  background-image:linear-gradient(aquamarine, gray);
+>>>>>>> 33eaef3767ed24e8cbbbda0ae03bd23a6ef13484
 }
 .body-2{
     background-image: url("http://www.valleyhealthcolumbus.com/wp-content/uploads/2015/08/Blue-radial-gradient-background1.png");
@@ -138,7 +143,7 @@
 /* .H
 {
     text-align: center;
-    color: darkcyan;
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
     height: 10px;
     
@@ -170,7 +175,12 @@
 /*  */
 
 /* nav style */
+<<<<<<< HEAD
 /* .top
+=======
+
+.top
+>>>>>>> 33eaef3767ed24e8cbbbda0ae03bd23a6ef13484
  {
   overflow: hidden;
   background-color: #333;
@@ -180,7 +190,7 @@
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -196,7 +206,16 @@
 } */
 
 /*  */
+<<<<<<< HEAD
 /* .footer{
+=======
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.footer
+{
+>>>>>>> 33eaef3767ed24e8cbbbda0ae03bd23a6ef13484
     position: inherit;
     left: 0;
     bottom: 0;
@@ -204,7 +223,6 @@
     background-color: black;
     color: #cccccc;
     text-align: center;
-
     background-image: linear-gradient(aquamarine, gray);
 }
 h1{
@@ -248,8 +266,13 @@ h1{
 .linkedin{
     width: 40px;
     height: 40px;
+<<<<<<< HEAD
 } */
 /* .container{
+=======
+}
+.cont {
+>>>>>>> 33eaef3767ed24e8cbbbda0ae03bd23a6ef13484
     background-image: linear-gradient(darkblue, white);
 } */
 
@@ -300,4 +323,42 @@ h1{
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+<<<<<<< HEAD
 } */
+=======
+}
+
+
+/* sam */
+.klp{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+.ghj{
+  width:40px;
+  height:40px;
+}
+.abc{
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+}
+.npd{
+  width: 40px;
+  height: 40px;
+
+}
+.bgk{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+.tre{
+  width: 60px;
+  height: 60px;
+
+}
+/*sam  */
+
+>>>>>>> 33eaef3767ed24e8cbbbda0ae03bd23a6ef13484
