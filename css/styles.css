@@ -1,14 +1,11 @@
-
 .lexy{ 
   background-image:linear-gradient(aquamarine, gray);
-
 }
 .body-2{
     background-image: url("http://www.valleyhealthcolumbus.com/wp-content/uploads/2015/08/Blue-radial-gradient-background1.png");
     height: 100%;
     font-family: 'Manjari', sans-serif;
-  
-  }
+ }
   .jumbotron-2{
     background: rgba(17, 140, 197, 0.192);
   }
@@ -65,38 +62,60 @@
     color: rgb(53, 53, 53);
     font-size: 25px;
   }
-  
-
- body{
-
+body{
     background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
-
     background-position: center;
-
+}
+.topnav a:hover {
+  background-color: rgba(204, 204, 204, 0.719);
+  color: black;
 }
 .jumbotron{
-    background: rgba(72, 101, 197, 0.774);
-
+  background: rgba(72, 101, 197, 0.774);
+  }
+.topnav a.active {
+  background-color: rgba(212, 212, 212, 0.61);
+  color: white;
 }
-.h2{
-    text-align: center;
-    color: #ddd;
+.search-box {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
- 
+.feeling {
+  text-align: center;
+}
+.search-box {
+  text-align: center;
+}
+.explain {
+  text-align: center;
+}
+.form {
+  color: #f2f2f2;
+}
+.jumbotron {
+  background: rgba(72, 101, 197, 0.671);
+}
+.h2 {
+  text-align: center;
+  color: #ddd;
+}
 
-/* index.html style */
- .a1{
+
+* index.html style */
+.a1{
     text-align: center;
     color:black;
     font-size:500%;
- 
 }
-.juu
- {
+.juu {
   overflow: hidden;
   background-color: rgb(43, 43, 226);
-  
 }
 
 .juu a {
@@ -106,8 +125,6 @@
   padding: 10px 10px;
   text-decoration: none;
   font-size: 10px;
-  
-  
 }
 
 .juu a:hover {
@@ -116,50 +133,40 @@
 }
 
 .juu a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
-  
-  
 }
 
-
- .H
-{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
-    height: 10px;
-    
+.H {
+  text-align: center;
+  color: darkcyan;
+  font-family: "Times New Roman", Times, serif;
+  height: 10px;
 }
-
-/* doctor home.html style */
- .top
+.top
  {
   overflow: hidden;
   background-color: #333;
 }
-.imgf
-{
-  width: 100%;
-  height: 500px;
-
-}
-.imgt
-{
+.imgf {
   width: 100%;
   height: 500px;
 }
-.imgk
-{
+.imgt {
+  width: 100%;
+  height: 500px;
+}
+.imgk {
   width: 100%;
   height: 500px;
 }
 
 /*  */
-
-/* nav style */
-
-
+.top
+ {
+  overflow: hidden;
+  background-color: #333;
+}
 .top a {
   float: left;
   color: #f2f2f2;
@@ -175,103 +182,237 @@
 }
 
 .top a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
+} 
+/*  */
+
+.footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: #cccccc;
+  text-align: center;
+  background-image: linear-gradient(aquamarine, gray);
 }
-
-
-
-
-
-
-
-body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
-
- /* Bordered form */
- form {
-    border: 3px solid #f1f1f1;
-  }
-  
-  /* Full-width inputs */
-  input[type=text], input[type=password] {
-    width: 100%;
-    padding: 20px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  /* Set a style for all buttons */
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  /* Add a hover effect for buttons */
-  button:hover {
-    opacity: 0.8;
-  }
-  
-  /* Extra style for the cancel button (red) */
-  .cancelbtn {
-    width: auto;
-    padding: 10px 18px;
-    background-color: #f44336;
-  }
-  
-  /* Center the avatar image inside this container */
-  .imgcontainer {
-
-    margin: 24px 0 12px 0;
-  }
-  
-  /* Avatar image */
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
-  }
-  
-  /* Add padding to containers */
-  .container {
-    padding: 20px;
-    background-color: #4CAF50;
-  }
-  
-  /* The "Forgot password" text */
-  span.psw {
-    float: right;
-    padding-top: 16px;
-    text-align: center;
-  }
-  
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 500px) {
-    span.psw {
-      display: block;
-      float: none;
-      text-align: center;
-    }
-    .cancelbtn {
-      width: 100%;
-    }
-  } 
-  .footer{
-    position:inherit;
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.footer
+{
+    position: inherit;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: aquamarine;
-    color:black;
-    text-align: center;  
+    background-color: black;
+    color: #cccccc;
+    text-align: center;
+    background-image: linear-gradient(aquamarine, gray);
+
+}
+h1 {
+  text-align: center;
+}
+.prof-name {
+  text-align: center;
+}
+.footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+}
+.fb {
+  width: 40px;
+  height: 40px;
+}
+.insta {
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+}
+.twitter {
+  width: 40px;
+  height: 40px;
+}
+.email {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+.skyeep {
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+.linkedin {
+  width: 40px;
+  height: 40px;
+}
+.cont {
+  background-image: linear-gradient(darkblue, white);
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(56, 53, 238);
+  height: 53px;
+  }
+.linkedin{
+    width: 40px;
+    height: 40px;
+
+} 
+.top{
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.topnav a:hover {
+  background-color: rgba(204, 204, 204, 0.719);
+  color: black;
+}
+.topnav a.active {
+  background-color: rgba(212, 212, 212, 0.61);
+  color: white;
+}
+.search-box {
+  float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  border: 3px solid #f1f1f1;
+}
+.topnav-2 {
+    overflow: hidden;
+    background-color: rgb(56, 53, 238);
+    height: 53px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }    
+  .topnav a:hover {
+    background-color: rgba(204, 204, 204, 0.719);
+    color: black;
+  }    
+  .topnav a.active {
+    background-color: rgba(212, 212, 212, 0.61);
+    color: white;
+  }
+  .search-box{
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+} 
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+/* Bordered form */
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
 
+/* Set a style for all buttons */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.doki {
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+  text-align: center;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 500px) {
+  span.psw {
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+
+.footer {
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+}
 /* sam */
 .klp{
   width: 0px;
@@ -302,6 +443,5 @@ form {border: 3px solid #f1f1f1;}
   width: 60px;
   height: 60px;
   margin-left: 0%;
-  
-
 }
+
