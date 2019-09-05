@@ -1,4 +1,79 @@
-body{
+
+@media (max-width: 1125px) {
+  body{
+    
+  }
+
+.lexy{ 
+  background-image:linear-gradient(aquamarine, gray);
+
+}
+.body-2{
+    background-image: url("http://www.valleyhealthcolumbus.com/wp-content/uploads/2015/08/Blue-radial-gradient-background1.png");
+    height: 100%;
+    font-family: 'Manjari', sans-serif;
+  
+  }
+  .jumbotron-2{
+    background: rgba(17, 140, 197, 0.192);
+  }
+  .ul-2{
+    margin-left: 105vh;
+  }
+  .topnav-2 {
+      overflow: hidden;
+      background-color: rgb(20, 152, 192);
+      height: 50px;
+    }
+    .topnav-2 a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    .topnav-2 a:hover {
+      background-color: rgba(50, 213, 238, 0.459);
+      color: black;
+    }
+    
+    .topnav-2 a.active {
+      background-color: rgba(6, 59, 95, 0.432);
+      color: white;
+    }
+    
+    .feeling{
+        text-align: center;
+    }
+    .search-box{
+     text-align: center;
+    }
+    .search-button{
+   margin-top: 9px;
+    }
+
+  
+  .explain{
+    text-align: center;
+  }
+  
+  .button-2{
+    margin-bottom: 5px;
+  }
+ .form-2{
+   background: rgba(48, 75, 100, 0.233);
+   border: 0;
+ }
+  #h1-2{
+    color: rgb(53, 53, 53);
+    font-size: 25px;
+  }
+  
+
+/* body{
+
     background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
 
@@ -6,17 +81,17 @@ body{
 
 }
 .jumbotron{
-    background: rgba(72, 101, 197, 0.671);
+    background: rgba(72, 101, 197, 0.774);
 
 }
 .h2{
     text-align: center;
     color: #ddd;
 }
-
+ */
 
 /* index.html style */
-.a1{
+/* .a1{
     text-align: center;
     color:black;
     font-size:500%;
@@ -52,9 +127,8 @@ body{
   
 }
 
-
 /*  */
-.H
+/* .H
 {
     text-align: center;
     color: rgb(0, 0, 0);
@@ -62,9 +136,41 @@ body{
     height: 10px;
     
 }
+
+} */ */
+
+/* doctor home.html style */
+/* .top
+ {
+  overflow: hidden;
+  background-color: #333;
+}
+.imgf
+{
+  width: 100%;
+  height: 500px;
+
+}
+.imgt
+{
+  width: 100%;
+  height: 500px;
+}
+.imgk
+{
+  width: 100%;
+  height: 500px;
+} */
+
+/*  */
+
 /* nav style */
 
+/* .top
+
+
 .top
+
  {
   overflow: hidden;
   background-color: #333;
@@ -87,9 +193,12 @@ body{
 .top a.active {
   background-color: #4CAF50;
   color: white;
-}
+} */
 
 /*  */
+
+
+/* .footer{
 
 .carousel-inner img {
   width: 100%;
@@ -107,6 +216,9 @@ input[type="password"] {
 .mgu
 {
   
+
+
+    position: inherit;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -115,7 +227,197 @@ input[type="password"] {
     text-align: center;
     margin-top:13.5%;
     height: 50%;
+
+    background-image: linear-gradient(aquamarine, gray);
 }
+h1{
+    text-align: center;
+}
+.prof-name{
+    text-align: center;
+}
+.footer{
+    position:inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    color:black;
+    text-align: center;
+}
+.fb{
+    width: 40px;
+    height: 40px;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+}
+.twitter{
+    width: 40px;
+    height: 40px; 
+}
+.email{
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+}
+.skyeep{
+    width: 40px;
+    height: 40px;
+    border-radius: 40%;
+}
+.linkedin{
+    width: 40px;
+    height: 40px;
+
+} */
+/* .container{
+
+}
+.cont {
+    background-image: linear-gradient(darkblue, white);
+} */
+
+/* .top{
+    overflow: hidden;
+    background-color: #333;
+}
+.top a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.top a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.top a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+.topnav-2 {
+    overflow: hidden;
+    background-color: rgb(56, 53, 238);
+    height: 53px;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2
+;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }    .topnav a:hover {
+    background-color: rgba(204, 204, 204, 0.719);
+    color: black;
+  }    .topnav a.active {
+    background-color: rgba(212, 212, 212, 0.61);
+    color: white;
+  }
+  .search-box{
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+} */
+
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+ /* Bordered form */
+ form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 20px;
+    background-color: #4CAF50;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    text-align: center;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 500px) {
+    span.psw {
+      display: block;
+      float: none;
+      text-align: center;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  } 
+  .footer{
+    position:inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    color:black;
+    text-align: center;  
+}
+
 /* sam */
 .klp{
   width: 0px;
@@ -150,3 +452,4 @@ input[type="password"] {
 
 }
 /*sam  */
+
