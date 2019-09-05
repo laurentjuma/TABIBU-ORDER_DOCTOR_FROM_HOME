@@ -62,32 +62,6 @@ body{
     height: 10px;
     
 }
-
-/* doctor home.html style */
-/* .top
- {
-  overflow: hidden;
-  background-color: #333;
-}
-.imgf
-{
-  width: 100%;
-  height: 500px;
-
-}
-.imgt
-{
-  width: 100%;
-  height: 500px;
-}
-.imgk
-{
-  width: 100%;
-  height: 500px;
-} */
-
-/*  */
-
 /* nav style */
 
 .top
@@ -116,11 +90,21 @@ body{
 }
 
 /*  */
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
 }
-.footer
+input[type="text"]
+input[type="number"]
+input[type="password"] {
+  width: 100%;
+  padding: 20px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing:border-box;
+}
+.mgu
 {
   
     left: 0;
@@ -130,12 +114,13 @@ body{
     color: #cccccc;
     text-align: center;
     margin-top:13.5%;
+    height: 50%;
 }
 /* sam */
 .klp{
-  width: 40px;
-  height: 40px;
-  border-radius: 40%;
+  width: 0px;
+  height: 0px;
+  
 }
 .ghj{
   width:40px;
@@ -144,7 +129,7 @@ body{
 .abc{
   width: 40px;
   height: 40px;
-  border-radius: 60%;
+  border-radius: 0%;
 }
 .npd{
   width: 40px;
@@ -152,13 +137,16 @@ body{
 
 }
 .bgk{
-  width: 40px;
-  height: 40px;
-  border-radius: 40%;
+  width: 20px;
+  height: 30px;
+  border-radius: -50px
+
 }
 .tre{
   width: 60px;
   height: 60px;
+  margin-left: 0%;
+  
 
 }
 /*sam  */
