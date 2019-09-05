@@ -1,9 +1,4 @@
 
-@media (max-width: 1125px) {
-  body{
-    
-  }
-
 .lexy{ 
   background-image:linear-gradient(aquamarine, gray);
 
@@ -188,122 +183,7 @@
 
 
 
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
-}
-.footer
-{
 
-    position: inherit;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: #cccccc;
-    text-align: center;
-    background-image: linear-gradient(aquamarine, gray);
-}
-h1{
-    text-align: center;
-}
-.prof-name{
-    text-align: center;
-}
-.footer{
-    position:inherit;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: aquamarine;
-    color:black;
-    text-align: center;
-}
-.fb{
-    width: 40px;
-    height: 40px;
-}
-.insta{
-    width: 40px;
-    height: 40px;
-    border-radius: 60%;
-}
-.twitter{
-    width: 40px;
-    height: 40px;
-}
-.email{
-    width: 40px;
-    height: 40px;
-    border-radius: 40%;
-}
-.skyeep{
-    width: 40px;
-    height: 40px;
-    border-radius: 40%;
-}
-.linkedin{
-    width: 40px;
-    height: 40px;
-
-} */
-/* .container{
-
-}
-.cont {
-    background-image: linear-gradient(darkblue, white);
-} */
-
-/* .top{
-    overflow: hidden;
-    background-color: #333;
-}
-.top a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.top a:hover{
-    background-color: #ddd;
-    color: black;
-}
-.top a.active{
-    background-color: #4CAF50;
-    color: white;
-}
-.topnav-2 {
-    overflow: hidden;
-    background-color: rgb(56, 53, 238);
-    height: 53px;
-  }
-  .topnav a {
-    float: left;
-    color: #f2f2f2
-;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-    font-size: 16px;
-  }    .topnav a:hover {
-    background-color: rgba(204, 204, 204, 0.719);
-    color: black;
-  }    .topnav a.active {
-    background-color: rgba(212, 212, 212, 0.61);
-    color: white;
-  }
-  .search-box{
-    float: center;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-} */
-
-}
 
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
@@ -394,9 +274,9 @@ form {border: 3px solid #f1f1f1;}
 
 /* sam */
 .klp{
-  width: 40px;
-  height: 40px;
-  border-radius: 40%;
+  width: 0px;
+  height: 0px;
+  
 }
 .ghj{
   width:40px;
@@ -405,7 +285,7 @@ form {border: 3px solid #f1f1f1;}
 .abc{
   width: 40px;
   height: 40px;
-  border-radius: 60%;
+  border-radius: 0%;
 }
 .npd{
   width: 40px;
@@ -413,14 +293,15 @@ form {border: 3px solid #f1f1f1;}
 
 }
 .bgk{
-  width: 40px;
-  height: 40px;
-  border-radius: 40%;
+  width: 20px;
+  height: 30px;
+  border-radius: -50px
+
 }
 .tre{
   width: 60px;
   height: 60px;
+  margin-left: 0%;
+  
 
 }
-/*sam  */
-
