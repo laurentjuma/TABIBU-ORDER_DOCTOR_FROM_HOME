@@ -1,29 +1,81 @@
-.lexy {
-  background-image: linear-gradient(aquamarine, gray);
+.lexy{ 
+  background-image:linear-gradient(aquamarine, gray);
 }
-.body-2 {
-  background-image: url("https://media.idownloadblog.com/wp-content/uploads/2019/04/Clear-Sky-for-iPhoneXSMAX-iPhoneXR-iphone-wallpaper-gradient-AR72014.png");
-  height: 100%;
-}
-.jumbotron-2 {
-  position: relative;
-  overflow: hidden;
-  background: rgba(130, 161, 168, 0.432);
-}
-.topnav {
-  overflow: hidden;
-  background-color: rgb(56, 53, 238);
-  height: 53px;
-}
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 10px 16px;
-  text-decoration: none;
-  font-size: 16px;
-}
+.body-2{
+    background-image: url("http://www.valleyhealthcolumbus.com/wp-content/uploads/2015/08/Blue-radial-gradient-background1.png");
+    height: 100%;
+    font-family: 'Manjari', sans-serif;
+  
+  }
+  .jumbotron-2{
+    position: relative;
+    overflow: hidden;
+    background: rgba(130, 161, 168, 0.432);
+  }
+  .ul-2{
+    margin-left: 110vh;
+  }
+  .topnav {
+      overflow: hidden;
+      background-color: rgb(20, 152, 192);
+      height: 53px;
+    }
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 10px 16px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    .topnav a:hover {
+      background-color: rgba(50, 213, 238, 0.459);
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: rgba(6, 59, 95, 0.432);
+      color: white;
+    }
+    .search-box{
+      float: center;
+      padding: 6px;
+      border: none;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 17px;
+    }
+    .feeling{
+        text-align: center;
+    }
+    .search-box{
+        text-align: center;
+    }
+  
+  .explain{
+    text-align: center;
+  }
+  .form{
+    color: #f2f2f2;
+  }
+  .button-2{
+    margin-bottom: 5px;
+  }
+  ::placeholder{
+      color: rgba(59, 68, 85, 0.527);
+  }
+  #h1-2{
+    color: rgb(53, 53, 53);
+    font-size: 25px;
+  }
+  
 
+body{
+    background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+}
 .topnav a:hover {
   background-color: rgba(204, 204, 204, 0.719);
   color: black;
@@ -53,11 +105,6 @@
 }
 .form {
   color: #f2f2f2;
-}
-body {
-  background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-size: cover;
-  background-position: center;
 }
 .jumbotron {
   background: rgba(72, 101, 197, 0.671);
@@ -106,7 +153,18 @@ body {
 }
 
 /* doctor home.html style */
-.top {
+.H
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    height: 10px;
+    
+}
+
+/* doctor home.html style */
+/* .top
+ {
   overflow: hidden;
   background-color: #333;
 }
@@ -121,12 +179,14 @@ body {
 .imgk {
   width: 100%;
   height: 500px;
-}
+} */
 
 /*  */
 
 /* nav style */
-.top {
+
+.top
+ {
   overflow: hidden;
   background-color: #333;
 }
@@ -135,7 +195,7 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -151,6 +211,7 @@ body {
 }
 
 /*  */
+
 .footer {
   position: inherit;
   left: 0;
@@ -160,6 +221,22 @@ body {
   color: #cccccc;
   text-align: center;
   background-image: linear-gradient(aquamarine, gray);
+}
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+.footer
+{
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #cccccc;
+    text-align: center;
+    background-image: linear-gradient(aquamarine, gray);
+
 }
 h1 {
   text-align: center;
@@ -206,27 +283,6 @@ h1 {
 .cont {
   background-image: linear-gradient(darkblue, white);
 }
-
-.top {
-  overflow: hidden;
-  background-color: #333;
-}
-.top a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.top a:hover {
-  background-color: #ddd;
-  color: black;
-}
-.top a.active {
-  background-color: #4caf50;
-  color: white;
-}
 .topnav {
   overflow: hidden;
   background-color: rgb(56, 53, 238);
@@ -262,11 +318,34 @@ body {
 form {
   border: 3px solid #f1f1f1;
 }
-
-/* Bordered form */
-form {
-  border: 3px solid #f1f1f1;
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }    
+  .topnav a:hover {
+    background-color: rgba(204, 204, 204, 0.719);
+    color: black;
+  }    
+  .topnav a.active {
+    background-color: rgba(212, 212, 212, 0.61);
+    color: white;
+  }
+  .search-box{
+    float: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+/* Bordered form */
 
 /* Full-width inputs */
 input[type="text"],
@@ -336,7 +415,7 @@ span.psw {
   .cancelbtn {
     width: 100%;
   }
-}
+
 .footer {
   position: inherit;
   left: 0;
@@ -346,3 +425,34 @@ span.psw {
   color: black;
   text-align: center;
 }
+/* sam */
+.klp{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+.ghj{
+  width:40px;
+  height:40px;
+}
+.abc{
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+}
+.npd{
+  width: 40px;
+  height: 40px;
+
+}
+.bgk{
+  width: 40px;
+  height: 40px;
+  border-radius: 40%;
+}
+.tre{
+  width: 60px;
+  height: 60px;
+
+}
+/*sam  */
