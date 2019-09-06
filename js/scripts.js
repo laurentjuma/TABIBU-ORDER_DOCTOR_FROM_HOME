@@ -47,6 +47,23 @@ $(Document).ready(function () {
     console.log("NO");
   }
 
+  //Main Sign In
+  try {
+    $("#in-as-doctor").click(function () {
+      location.href = "doctor_signin.html";
+    });
+  } catch (Exception) {
+    console.log("NO");
+  }
+
+  try {
+    $("#in-as-patient").click(function () {
+      location.href = "patient_signin.html";
+    });
+  } catch (Exception) {
+    console.log("NO");
+  }
+
 
 
   //Patient SignUp
