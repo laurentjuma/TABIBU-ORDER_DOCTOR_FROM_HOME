@@ -29,6 +29,7 @@ Patient.prototype.details = function () {
 }
 
 //UI Logic
+var locations;
 $(Document).ready(function () {
   //Main Sign Up
   try {
@@ -130,6 +131,33 @@ $(Document).ready(function () {
     });
   } catch (Exception) {
     console.log("Yes");
+  }
+
+  try {
+    $("#fDoc").click(function () {
+      event.preventDefault();
+      locations = $("#pLocation").val();
+      location.href = "doctor_profile.html";
+    });
+
+
+    //Doctors Orders
+    $(window).on("load", function (e) {
+      patientDetails = sessionStorage.getItem("pDetails");
+      patientDetailsA = patientDetails.split(" ");
+      $("#patient_request").remove();
+      $("#doc-body").append("<div class='comp' id='patient_request'>" +
+        "<span class='jin'>NAME:" + patientDetailsA[0] + " </span> <br>" +
+        "<span class='age'> AGE: " + patientDetailsA[3] + " </span> <br>" +
+        "<span class='gen'> GENDER: " + patientDetailsA[5] + " </span> <br>" +
+        "<span class='loc'> LOCATION: " + locations + " </span> <br>" +
+        "<span class='cont'> CONTACT: " + patientDetailsA[0] + " </span> <br>" +
+        "<span class='comp'> COMPLAINT: " + patientDetailsA[0] + " </span> <br>" +
+
+        "</div>");
+    });
+  } catch (Exception) {
+    console.log("yup");
   }
 
 
