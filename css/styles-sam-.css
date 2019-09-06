@@ -1,0 +1,167 @@
+body{
+    background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+
+    background-position: center;
+
+}
+.jumbotron{
+    background: rgba(72, 101, 197, 0.671);
+
+}
+.h2{
+    text-align: center;
+    color: #ddd;
+}
+.io{
+  margin-left: 50%;
+}
+
+
+/* index.html style */
+.a1{
+    text-align: center;
+    color:black;
+    font-size:500%;
+ 
+}
+.juu
+ {
+  overflow: hidden;
+  background-color: rgb(43, 43, 226);
+  
+}
+
+.juu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 10px;
+  
+  
+}
+
+.juu a:hover {
+  background-color: #ddd;
+  color: blue;
+}
+
+.juu a.active {
+  background-color: #4CAF50;
+  color: white;
+  
+  
+}
+
+
+/*  */
+.H
+{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    height: 10px;
+    
+}
+/* nav style */
+
+.top
+ {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.top a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*  */
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+input[type="text"]
+input[type="number"]
+input[type="password"] {
+  width: 100%;
+  padding: 20px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing:border-box;
+}
+.mgu
+{
+  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #cccccc;
+    text-align: center;
+    margin-top:13.5%;
+    height: 50%;
+}
+/* sam */
+.klp{
+  width: 0px;
+  height: 0px;
+  
+}
+.ghj{
+  width:40px;
+  height:40px;
+}
+.abc{
+  width: 40px;
+  height: 40px;
+  border-radius: 0%;
+}
+.npd{
+  width: 40px;
+  height: 40px;
+
+}
+.bgk{
+  width: 20px;
+  height: 30px;
+  border-radius: -50px
+
+}
+.tre{
+  width: 60px;
+  height: 60px;
+  margin-left: 0%;
+  
+
+}
+/*sam  */
+.footer{
+  position: inherit;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: #333;
+  text-align: center;
+  background-image: linear-gradient(#333);
+
+
+}
